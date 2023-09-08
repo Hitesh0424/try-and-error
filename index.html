@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- cdn fonawsam  -->
     <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
     <!-- swipper cdn  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="/style.css">
-    <title>Business</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footerstyle.css">
+
+    <title>C2C FILMS</title>
 </head>
 <body>
     <!-- header  -->
@@ -377,57 +379,45 @@
             <div class="ifarm">
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.603558368041!2d77.57513486452571!3d12.99718934083914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae163acfc34e09%3A0x9cfe1608b6cdbd55!2sPalace%20Guttahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1677367011997!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>r -->
             </div>
+
+            <div class="container2">
+
+
+ <!-- =============formm======= -->
             <div class="form-c">
-                <form action="">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                    <input type="number" placeholder="phone">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="send message">
-                </form>
+                <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        </div>
             </div>
         </div>
     </section>
     <!-- /contact  -->
     <!-- footer  -->
-    <footer class="footer">
-        <div class="content">
-            <h3>C2C FILMS</h3>
-            <p>WHERE PIXELS PAINT EMOTIONS.</p>
-            <div class="shar">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-        </div>
+    <footer id="footerPlaceholder">
 
-        <div class="link">
-            <h3>links</h3>
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#services">services</a>
-            <a href="#portfolio">portfolio</a>
-            <!-- <a href="#team">team</a> -->
-            <!-- <a href="#blog">blog</a> -->
-            <a href="#contact">contact</a>
-        </div>
-
-        <div class="our-servis">
-            <h3>services</h3>
-            <a href="#"></a>
-            <a href="#">Pre-Wedding </a>
-            <a href="#">Wedding </a>
-            <a href="#">Post Wedding</a>
-            <a href="#">Real Estate</a>
-            <a href="#">Cultural</a>
-        </div>
-
-        <div class="Ournews">
-            <h3>STAY TUNED</h3>
-            <p>For Latest Updates</p>
     </footer>
+
+
+    
     <!-- /footer  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>

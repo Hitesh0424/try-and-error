@@ -1,0 +1,53 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Center the content within the footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the "Company" and "Follow Us" sections */
+.company, .follow-us {
+    flex: 1;
+}
+
+.company h3, .follow-us h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.company ul, .follow-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company ul li, .follow-us ul li {
+    margin-bottom: 10px;
+}
+
+.company ul li a, .follow-us ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the social media icons */
+.company ul li a img, .follow-us ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
